@@ -1,0 +1,61 @@
+html,body{
+ margin: 0;
+ height: 100vh;
+ font-family: 'Roboto',
+  sans-serif;
+}
+.fondo{
+ position: relative;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ opacity: .6;
+ display: flex;
+ justify-content: center;
+}
+.imagen1{
+background-image: url(./img/pila01.jpg);
+min-height: 100%;
+}
+.imagen2{
+ background-image: url(./img/pila02.jpg);
+ min-height: 400px;
+}
+.imagen3{
+ background-image: url(./img/pila03.jpg);
+  min-height: 400px;
+}
+.fondo__titulo{
+ position: absolute;
+text-align: center;
+ top: 50%;
+ background-color: rgb(77, 78, 80);
+ color: white;
+ padding: 10px 50px;
+ text-transform: uppercase;
+}
+.trasparente{
+  background-color: transparent;
+}
+.seccion{
+ padding: 50px 80px;
+ text-align: center;
+}
+.light{
+ background-color: aliceblue;
+ color: black;
+}
+.dark{
+ background-color: black;
+ color: aliceblue;
+ 
+}
+.seccion__subtitulo{
+ font-weight: 800px;
+ font-size: 30px;
+}
+.secccion__parrafo{
+ font-size: 20px;
+}
+
